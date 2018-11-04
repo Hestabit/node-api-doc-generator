@@ -1,0 +1,35 @@
+{
+  "name": "node-api-doc-generator",
+  "version": "1.1.0",
+  "description": "This API will read annotations of the project APIs and create a PDF document with there Request and Response.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "api document",
+    "apidoc",
+    "node api doc"
+  ],
+  "directories": {
+    "lib": "api_doc"
+  },
+  "engines": {
+    "node": ">= 8.12.0",
+    "npm": ">= 5.10.0"
+  },
+  "author": "Animesh <animeshbhardwaj2@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.1",
+    "axios": "^0.18.0",
+    "fs": "0.0.1-security",
+    "node-cmd": "^3.0.0",
+    "phantom": "^6.0.3",
+    "winston": "^3.0.0"
+  },
+  "devDependencies": {
+    "apidoc": "^0.17.6"
+  }
+}
